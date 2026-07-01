@@ -221,3 +221,4 @@ __marimo__/
 briefings/
 .seen_urls.json
 output/
+.DS_Store
