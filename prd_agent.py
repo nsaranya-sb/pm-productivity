@@ -35,7 +35,6 @@ def generate_prd(problem_statement: str) -> Path:
     with client.messages.stream(
         model=MODEL,
         max_tokens=4096,
-        thinking={"type": "adaptive"},
         system=system_prompt,
         messages=[{"role": "user", "content": problem_statement}],
     ) as stream:

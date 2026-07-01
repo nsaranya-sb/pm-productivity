@@ -69,6 +69,20 @@ A well-structured PRD clearly communicates the what, why, and how of your produc
 
 5. **Structure Output**: Output the PRD directly as clean, well-formatted markdown. Do not include any preamble, commentary, tool calls, or JSON wrappers — just the markdown document, starting with the `#` title.
 
+## Flagging Sections That Need Deeper Human Thinking
+
+For the sections below, add a blockquote callout immediately after your draft content using this format:
+
+> 🧠 **Needs your thinking:** [one sentence explaining what the PM needs to validate, decide, or stress-test that AI cannot do reliably]
+
+Apply this to:
+- **Objective / Key Results** — Are these OKRs actually tied to business strategy, or generic? The PM needs to validate the metrics against what the company truly cares about.
+- **Market Segments** — Is the primary segment the right beachhead? This requires real user research, not inference.
+- **Assumptions (7.4)** — Which assumptions are load-bearing? The PM must rank these by risk and decide which to validate first.
+- **Release phasing** — Does the v1 scope reflect actual team capacity and organisational constraints? Only the PM knows the real constraints.
+
+Do not add the callout to sections that are largely factual or structural (Summary, Contacts, Background, Solution features).
+
 ## Notes
 
 - Be specific and data-driven where possible
