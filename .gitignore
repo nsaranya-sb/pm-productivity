@@ -219,3 +219,4 @@ __marimo__/
 
 # Daily briefing outputs
 briefings/
+.seen_urls.json
